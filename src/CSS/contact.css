@@ -1,0 +1,118 @@
+/* -------------------------------- Contact Form ----------------------------------- */
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contactForm{
+    width: 30rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-bottom: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    background-color: rgb(218, 218, 218);
+    margin-bottom: 15px;
+}
+
+.contact-heading {
+    margin-top: 10px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    /* padding: 1rem 1rem; */
+    color: rgb(173, 140, 140);
+    margin-top: 94px;
+}
+
+.par{
+    padding-bottom: 10px;
+    text-align: center;
+    color: #888;
+}
+
+label{
+    display: flex;
+    margin: 1rem;
+}
+
+input:hover{
+    outline: 1px solid blue;
+}
+
+input:focus{
+    outline: 2px solid rgb(173, 140, 140);
+}
+
+textarea:hover{
+    outline: 1px solid blue;
+}
+
+textarea:focus{
+    outline: 2px solid rgb(173, 140, 140);
+}
+
+.contact-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    width: 40%;
+    font-size: 20px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.contact-btn:hover{
+    background-color: #0056b3;
+}
+
+.fa-icons{
+    color: red;
+    font-size: 0.5rem;
+}
+
+/* -------------------------------- Contact Form ----------------------------------- */
+
+/* -------------------------------- Open Timings ----------------------------------- */
+
+.open-hours{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: rgb(130, 108, 108);
+    margin-bottom: 10px;
+}
+
+.toggle-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: rgb(87, 87, 87);
+    position: relative;
+    top: -0.2rem;
+}
+
+/* -------------------------------- Open Timings ----------------------------------- */
+
+/* -------------------------------- Media Queries ----------------------------------- */
+
+@media screen and (max-width: 1040px){
+
+    .contact-heading{
+        margin-top: 145px;
+    }
+
+    .contact-form{
+        margin: 10px;
+    }
+}
+
+/* -------------------------------- Media Queries ----------------------------------- */

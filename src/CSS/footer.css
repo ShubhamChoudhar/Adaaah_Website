@@ -1,0 +1,43 @@
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* .footer p{
+    color: white;
+    text-align: center;
+}
+
+.footer h4{
+    color: white;
+    text-align: center;
+} */
+  
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+  
+.footer-links li:last-child {
+    margin-right: 0;
+}
+  
+.footer-links li a {
+    color: rgb(173, 140, 140);
+    text-decoration: none;
+    padding: 15px;
+}
+  
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+  

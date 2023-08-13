@@ -1,0 +1,285 @@
+/* -------------------------------- Home Image ----------------------------------- */
+
+.homeimg {
+    display: flex;
+    margin-top: 90px;
+
+}
+  
+.left-column {
+    flex: 1;
+}
+  
+.left-column img {
+    width: 100%;
+    height: auto;
+}
+  
+.right-column {
+    background-color: black;
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.content {
+    text-align: center;
+}
+  
+.content h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(247, 247, 247);
+}
+  
+.content p {
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+}
+
+.container {
+    display: flex;
+}
+
+/* -------------------------------- Home Image ----------------------------------- */
+
+/* -------------------------------- DJ Services ----------------------------------- */
+
+.dj-services {
+    text-align: center;
+    line-height: 1.4;
+}
+  
+.heading {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: rgb(173, 140, 140);
+}
+  
+.column {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+  
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+  
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.dj-heading3 {
+    margin-top: 10px;
+}
+  
+.dj-p {
+    font-size: 14px;
+    color: #888;
+}
+  
+/* -------------------------------- DJ Services ----------------------------------- */ 
+
+/* -------------------------------- Upcoming Events ----------------------------------- */ 
+
+.upcoming-events {
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    line-height: 1.4;
+    text-align: center;
+}
+  
+.upcoming-events h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(173, 140, 140);
+    font-size: 44px;
+    line-height: 1.4;
+}
+  
+.upcoming-events h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  } */
+  
+  /* Styling for the event description */
+  .upcoming-events p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the event date */
+  .upcoming-events p:nth-child(3) {
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the event time */
+  .upcoming-events p:nth-child(4) {
+    font-weight: bold;
+  }
+
+
+  /* -------------------------------- Upcoming Events ----------------------------------- */ 
+
+  /* -------------------------------- Subscribe ----------------------------------- */ 
+  
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+  
+.subscribe-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.subscribe-container p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.subscribe-form {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: inherit;
+    white-space: nowrap;
+    display: block;
+    flex-direction: row;
+    margin: 10px 10px;
+}
+  
+.subscribe-input {
+    display: block;
+    width: 50%;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-bottom-width: 4px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: rgb(218, 218, 218);
+    background-color: rgb(246, 246, 246);
+    border-style: solid;
+    margin: 10px auto;
+    
+}
+  
+.sub-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.subs{
+    /* justify-content: center;
+    text-align: center; */
+    margin-right: 15px;
+    width: 15%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    /* margin: 10px auto; */
+}
+  
+.subs-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* -------------------------------- Subscribe ----------------------------------- */
+
+/* -------------------------------- Media Queries ----------------------------------- */
+
+@media screen and (max-width: 1040px){
+
+    .home-component{
+        max-width: 100vw;
+    }
+
+    .homeimg {
+        flex-direction: column;
+      }
+    
+    .right-column {
+        flex: none;
+        margin-top: -5px;
+        height: 150px;
+        /* background-color: initial; Reset background color */
+    }
+
+/* -------------------------------- Home Image ----------------------------------- */
+
+    .homeimg {
+        display: flex;
+        margin-top: 125px;
+
+    }
+
+/* -------------------------------- Home Image ----------------------------------- */
+
+/* -------------------------------- DJ Services ----------------------------------- */
+
+    .column {
+        width: 100%; /* Each column takes the full width of the screen */
+        margin: 20px 0; /* Adjusted margin for stacking */
+    }
+
+    .circle {
+        width: 250px; /* Adjust this value based on your design preference for mobile view */
+        height: 250px; /* Adjust this value based on your design preference for mobile view */
+        margin: 0 auto 10px; /* Added bottom margin to separate from heading */
+    }
+
+    .dj-services {
+        padding: 0 15px; /* Padding to the left and right to ensure content doesn't touch the edges */
+    }
+
+    .dj-heading3, .dj-p {
+        text-align: center; /* Aligning text to the left for a more natural reading experience on mobile */
+    }
+
+/* -------------------------------- DJ Services ----------------------------------- */
+
+/* -------------------------------- Subscribe ----------------------------------- */
+
+    .subscribe-input{
+        width: 75%;
+    }
+
+    .subs{
+        width: fit-content;
+        margin: 5px;
+    }
+
+/* -------------------------------- Subscribe ----------------------------------- */
+
+}
+
+/* -------------------------------- Media Queries ----------------------------------- */
